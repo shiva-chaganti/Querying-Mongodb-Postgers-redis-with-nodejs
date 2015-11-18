@@ -5,7 +5,7 @@ var prompt = require('prompt');
 
 
 console.log('Connected to MongoDb...');
-mongoose.connect('mongodb://sam525:sam525@ds055574.mongolab.com:55574/heroku_vts4ljwt')
+mongoose.connect('mongodb://shiva:chaganti@ds055564.mongolab.com:55564/heroku_8r4q6gwf')
 var conn = mongoose.connection;
 
 conn.on('error', function(err){

@@ -6,8 +6,8 @@ var prompt = require('prompt');
 
 
 console.log('Connected to redis...');
-var client = redis.createClient(9709, 'ec2-54-83-59-218.compute-1.amazonaws.com'); 
-	client.auth('p5fcd8r304r51r3ttkvtbktfncp');
+var client = redis.createClient(20349, 'ec2-54-83-9-36.compute-1.amazonaws.com'); 
+	client.auth('p7brup335usgl76bgqjmbl68smr');
 
 client.on('connect', function(err){
 	
